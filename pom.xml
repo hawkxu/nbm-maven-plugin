@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>nbm-maven-plugin</artifactId>
-    <version>4.2-SNAPSHOT</version>
+    <version>4.2-fork-x</version>
     <packaging>maven-plugin</packaging>
 
     <name>NBM Maven Plugin</name>

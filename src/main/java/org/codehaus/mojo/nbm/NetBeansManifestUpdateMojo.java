@@ -591,7 +591,7 @@ public class NetBeansManifestUpdateMojo
     //MNBMODULE-137
     static String artifactToClassPathEntry( Artifact a, String codenamebase )
     {
-        return "ext/" + codenamebase + "/" + a.getGroupId().replace( '.', '-') + "/" + a.getArtifactId() + ( a.getClassifier() != null ? "-" + a.getClassifier() : "" ) + "." + a.getArtifactHandler().getExtension();
+        return "ext/" + a.getArtifactId() + "-" + a.getVersion() + "." + a.getArtifactHandler().getExtension();
     }
 
     /**
